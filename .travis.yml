@@ -6,6 +6,7 @@ php:
   - 5.6
 
 before_script:
+  - mysql -e 'create database app_testdb'
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
 
