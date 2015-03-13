@@ -64,18 +64,6 @@ return [
 			'strict'    => false,
 		],
 
-        'site_v1' => [
-            'driver'    => 'mysql',
-            'host'      => env('V1_DB_HOST', 'localhost'),
-            'database'  => env('V1_DB_DATABASE', 'forge'),
-            'username'  => env('V1_DB_USERNAME', 'forge'),
-            'password'  => env('V1_DB_PASSWORD', ''),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
-        ],
-
 		'pgsql' => [
 			'driver'   => 'pgsql',
 			'host'     => env('DB_HOST', 'localhost'),
